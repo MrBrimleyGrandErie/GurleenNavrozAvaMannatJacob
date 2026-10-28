@@ -56,10 +56,11 @@
 
 
 /*Jacob*/
+body {
+    background-color: #FFD5E2;
+}
 h1 {
+    background-color: #FF5689;
     text-align: center;
     padding: 20px;
-}
-.head_teal {
-    background-color: #00bbcc;
 }
