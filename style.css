@@ -1,6 +1,7 @@
 /*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
 /* !! IMPORTANT !! Use: <link rel="stylesheet" href="style.css"> to link this file to your html file */
 @import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap'); /* Imports the "Just Another Hand" font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /* Imports the "Inter" font */
 /*Gurleen*/
 
 
@@ -62,6 +63,7 @@ body {
     background-color: #FFD5E2;
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 h1 {
     background-color: #FF5689;
