@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDHS Zuminator Squad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>PDHS Zuminator Squad</h1>
+        <p>Dance, move, and have fun!</p>
+    </header>
+
+    <nav>
+        <a href="final_project.html">Home</a>
+        <a href="classes.html">Our Classes</a>
+    </nav>
+
+    <main>
+        <h2>Our Classes</h2>
+
+        <p>
+            Fun, Energetic and designed for every fitness level.
+            Find the class that fits you.
+        </p>
+
+        <div class="class-card">
+            <h3>Zumba Fitness</h3>
+            <p>High-energy dance workout with Latin and international music.</p>
+            <a href="classes.html#fitness">Learn More</a>
+        </div>
+
+        <div class="class-card">
+            <h3>Zumba Gold</h3>
+            <p>Lower impact, same great energy. Perfect for beginners.</p>
+            <a href="classes.html#gold">Learn More</a>
+        </div>
+
+        <div class="class-card">
+            <h3>Zumba Toning</h3>
+            <p>Dance + Light weights for a full body workout.</p>
+            <a href="classes.html#toning">Learn More</a>
+        </div>
+
+        <div class="class-card">
+            <h3>Zumba Strong</h3>
+            <p>Body weight moves with high intensity intervals.</p>
+            <a href="classes.html#strong">Learn More</a>
+        </div>
+
+        <div class="class-card">
+            <h3>Zumba Step</h3>
+            <p>Add the step for extra cardio and fun.</p>
+            <a href="classes.html#step">Learn More</a>
+        </div>
+
+        <h2>Get Ready to Dance!</h2>
+
+        <img src="auto=format&fit=crop&w=900&q=80"
+             alt="People taking part in a dance fitness class">
+
+        <p>
+            Visit the
+            <a href="https://www.figma.com/design/HoYhCiObnqJefpOigE7YGG/Untitled?node-id=46-5&t=t8YjsZsWlZzi6Avd-0/" target="_blank">official Zumba website</a>
+            to learn more about Zumba.
+        </p>
+
+        <p id="welcomeMessage">Welcome to PDHS Zuminator Squad!</p>
+
+        <button onclick="showMessage()">Click Here</button>
+
+    </main>
+
+    <footer>
+        <p>PDHS Zuminator Squad</p>
+    </footer>
+
+    <script>
+        console.log("Welcome to PDHS Zuminator Squad!");
+
+        function showMessage() {
+            let message = "Let's get moving and have fun!";
+            document.getElementById("welcomeMessage").innerHTML = message;
+            document.getElementById("welcomeMessage").style.color = "deeppink";
+        }
+    </script>
+
+</body>
+</html>
