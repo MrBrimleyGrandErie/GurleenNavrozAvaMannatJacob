@@ -13,26 +13,97 @@
                         <li style="font-size: 30px;">Tommy Mars</li>
                     </ul>
                     <p style="font-size: 24px;">My instructor was very nice! Would recommend those to ask for ‘Ms. Campbell’ next time you come in.</p>
+                    <p style="font-size: 14px;">Did you find this review helpful?</p>
                     <table>
                         <tr>
-                            <td>Did you find this review helpful?</td>
-                        </tr>
-                        <tr>
-                            <td width="36px"><img src="Images/Yes.png" height="30px"></td>
-                            <td><img src="Images/No.png" height="30px"></td>
-                            <td width="106px">256 people found this helpful.</td>
+                            <td width="36px"><img src="Images/Yes.png" height="30px" onclick="yes(1)"></td>
+                            <td><img src="Images/No.png" height="30px" onclick="no(1)"></td>
+                            <td id="1">256 people found this helpful.</td>
                         </tr>
                     </table>
                 </td>
-                <td width="400px"><img src="Images/5 Stars.png" height="50px"></td>
-                <td width="400px"><img src="Images/5 Stars.png" height="50px"></td>
+                <td width="400px"><img src="Images/5 Stars.png" height="50px">
+                    <ul>
+                        <li style="font-size: 30px;">Tommy Mars</li>
+                    </ul>
+                    <p style="font-size: 24px;">My instructor was very nice! Would recommend those to ask for ‘Ms. Campbell’ next time you come in.</p>
+                    <p style="font-size: 14px;">Did you find this review helpful?</p>
+                    <table>
+                        <tr>
+                            <td width="36px"><img src="Images/Yes.png" height="30px" onclick="yes(2)"></td>
+                            <td><img src="Images/No.png" height="30px" onclick="no(2)"></td>
+                            <td id="2">256 people found this helpful.</td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="400px"><img src="Images/5 Stars.png" height="50px">
+                    <ul>
+                        <li style="font-size: 30px;">Tommy Mars</li>
+                    </ul>
+                    <p style="font-size: 24px;">My instructor was very nice! Would recommend those to ask for ‘Ms. Campbell’ next time you come in.</p>
+                    <p style="font-size: 14px;">Did you find this review helpful?</p>
+                    <table>
+                        <tr>
+                            <td width="36px"><img src="Images/Yes.png" height="30px" onclick="yes(3)"></td>
+                            <td><img src="Images/No.png" height="30px" onclick="no(3)"></td>
+                            <td id="3">256 people found this helpful.</td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
             <tr>
-                <td><img src="Images/5 Stars.png" height="50px"></td>
-                <td><img src="Images/4 Stars.png" height="50px"></td>
-                <td><img src="Images/4 Stars.png" height="50px"></td>
+                <td><img src="Images/5 Stars.png" height="50px">
+                    <ul>
+                        <li style="font-size: 30px;">Tommy Mars</li>
+                    </ul>
+                    <p style="font-size: 24px;">My instructor was very nice! Would recommend those to ask for ‘Ms. Campbell’ next time you come in.</p>
+                    <p style="font-size: 14px;">Did you find this review helpful?</p>
+                    <table>
+                        <tr>
+                            <td width="36px"><img src="Images/Yes.png" height="30px" onclick="yes(4)"></td>
+                            <td><img src="Images/No.png" height="30px" onclick="no(4)"></td>
+                            <td id="4">256 people found this helpful.</td>
+                        </tr>
+                    </table>
+                </td>
+                <td><img src="Images/4 Stars.png" height="50px">
+                    <ul>
+                        <li style="font-size: 30px;">Tommy Mars</li>
+                    </ul>
+                    <p style="font-size: 24px;">My instructor was very nice! Would recommend those to ask for ‘Ms. Campbell’ next time you come in.</p>
+                    <p style="font-size: 14px;">Did you find this review helpful?</p>
+                    <table>
+                        <tr>
+                            <td width="36px"><img src="Images/Yes.png" height="30px" onclick="yes(5)"></td>
+                            <td><img src="Images/No.png" height="30px" onclick="no(5)"></td>
+                            <td id="5">256 people found this helpful.</td>
+                        </tr>
+                    </table>
+                </td>
+                <td><img src="Images/4 Stars.png" height="50px">
+                    <ul>
+                        <li style="font-size: 30px;">Tommy Mars</li>
+                    </ul>
+                    <p style="font-size: 24px;">My instructor was very nice! Would recommend those to ask for ‘Ms. Campbell’ next time you come in.</p>
+                    <p style="font-size: 14px;">Did you find this review helpful?</p>
+                    <table>
+                        <tr>
+                            <td width="36px"><img src="Images/Yes.png" height="30px" onclick="yes(6)"></td>
+                            <td><img src="Images/No.png" height="30px" onclick="no(6)"></td>
+                            <td id="6">256 people found this helpful.</td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
         </table>
         <a href="index.html"><img src="Images/Back.png" height="46"></a>
+        <script>
+            function yes(id) {
+                document.getElementById(id).textContent = "257 people found this helpful.";
+            }
+            function no(id) {
+                document.getElementById(id).textContent = "256 people found this helpful.";
+            }
+        </script>
     </body>
 </html>
