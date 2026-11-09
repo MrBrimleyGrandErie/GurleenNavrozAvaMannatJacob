@@ -65,6 +65,9 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+.name {
+    font-style: italic;
+}
 h1 {
     background-color: #FF5689;
     font-family: 'Just Another Hand', cursive;
