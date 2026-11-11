@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Demonstration</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Just+Another+Hand&family=Katibeh&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #FFD5E2;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+        }
+
+        .header {
+            width: 100%;
+            height: 237px;
+            background-color: #FF5689;
+            display: flex;
+            align-items: center;
+            padding-left: 65px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: 'Just Another Hand', cursive;
+            font-size: 150px;
+            font-weight: normal;
+            color: #000000;
+            margin: 0;
+            line-height: 1;
+        }
+
+        .instruction {
+            font-size: 40px;
+            margin: 14px 0 12px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 800px;
+            max-width: calc(100% - 32px);
+            margin: 0 auto;
+        }
+
+        .video-container img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 800 / 534;
+            object-fit: cover;
+            display: block;
+        }
+
+        .play-button {
+            position: absolute;
+            width: 116px;
+            height: 122px;
+            background-color: white;
+            clip-path: polygon(0 0, 0 100%, 100% 50%);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+
+        .rules-button {
+            position: relative;
+            display: block;
+            width: 197px;
+            height: 60px;
+            background-color: #FF2D55;
+            border-radius: 15px;
+            margin: 7px auto 0;
+            text-decoration: none;
+        }
+
+        .rules-button span {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -58%);
+            color: white;
+            font-family: 'Katibeh', serif;
+            font-size: 64px;
+            font-weight: normal;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .bottom-text {
+            font-size: 40px;
+            margin: 12px 0 20px;
+            line-height: 1.2;
+        }
+
+        @media (max-width: 850px) {
+            .header {
+                height: 150px;
+                padding-left: 25px;
+            }
+
+            h1 {
+                font-size: 85px;
+            }
+
+            .instruction,
+            .bottom-text {
+                font-size: 23px;
+            }
+
+            .play-button {
+                width: 65px;
+                height: 75px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Video Demonstration</h1>
+    </div>
+
+    <p class="instruction">
+        Click the play button to watch demo!
+    </p>
+
+    <div class="video-container">
+
+        <img src="https://i.postimg.cc/D026j9Bp/dance.webp" alt="Zumba dancers demonstrating a routine">
+
+        <a href="https://app.edublocks.org/project/hdTLtJI2DrOeX3KyEQdOKVyy7pb2/VsG3HlaoJr9QkxMQ5eYP"
+           class="play-button"
+           aria-label="Watch video demonstration">
+        </a>
+
+    </div>
+
+    <a href="https://app.edublocks.org/project/hdTLtJI2DrOeX3KyEQdOKVyy7pb2/bxWdQenQeOjiT9OdcMng"
+   class="rules-button">
+    <span>Rules</span>
+</a>
+
+    <p class="bottom-text">
+        Click "Rules" to review rules!
+    </p>
+
+</body>
+</html>
