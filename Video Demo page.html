@@ -12,11 +12,12 @@
 
 <body>
 
+    <!-- The header makes the page title stand out -->
     <div class="header">
         <h1>Video Demonstration</h1>
     </div>
 
-    <p class="instruction">
+    <p class="instruction" id="instruction">
         Click the play button to watch demo!
     </p>
 
@@ -34,6 +35,20 @@
     <p class="bottom-text">
         Click "Rules" to review rules!
     </p>
+
+    <!-- This button gives the user a small interactive message -->
+    <button onclick="changeMessage()">Click me!</button>
+
+    <script>
+        // Shows a greeting when the page loads
+        console.log("Welcome to the Video Demonstration page!");
+
+        // Changes the instruction text when the user clicks the button
+        function changeMessage() {
+            document.getElementById("instruction").innerHTML =
+                "Let's get moving! Have fun!";
+        }
+    </script>
 
 </body>
 </html>
