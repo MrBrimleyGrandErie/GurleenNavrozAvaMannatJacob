@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta data ---------------------------------------------------- -->
+    <meta charset="utf-8">            <!-- Character encoding (UTF‑8) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <!-- Makes the page responsive on mobile devices -->
+
+    <!-- Page title --------------------------------------------------- -->
+    <title>The PDHS Zumbanator Squad</title>
+
+    <!-- External CSS – put your own stylesheet(s) here if needed -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+    body{
+    font-family:arial; text-align: left;
+    }
+    #head-banner { background-color: hotpink; padding: 10px; }
+    .card{
+    margin:5px;
+    padding:10px;
+    border:10px solid hotpink;
+    border-radius:10px
+    }
+        </style>
+</head>
+
+<body>
+    <!-- Your content starts here ------------------------------------- -->
+    <div id="head-banner" class="card">
+        <h1>Zumba shop</h1>
+        <img src="https://www.growinnsteps.com/wp-content/uploads/2022/06/dancer-zumba-fitness-training-dance-studio-scaled-1.jpg"
+            alt="Zumba Merch!"
+            width="220">
+</div>   <!--Merchandise-->
+
+        <p id="zumba-text">Ready to Zumba?</p>
+        <button onclick="updatePage()">Click me!</button>
+        
+    <h2>Merchandise</h2>
+       <p>Leggings: $75</p>
+       <p>Cargo-pants: $78</p>
+       <p>Shorts: $68</p>
+       <p>T-shirt: $92</p>
+       <p>Tank Top: $87</p>
+       <p>Cropped Mesh Top: $80</p>
+       <p>Cropped off-the-shoulder sweater: $103</p>
+    
+    <a href="https://www.figma.com/proto/HoYhCiObnqJefpOigE7YGG/Untitled?node-id=54-3&p=f&t=bedVgxVFRAbbLHb1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=54%3A3">The PDHS Zumbanator Squad Site</a>
+
+
+
+    <!-- Optional: External JavaScript – put your own .js file(s) here -->
+ <script>     
+    console.log("Welcome!");
+
+    function updatePage() {
+       var target = document.getElementById("zumba-text");
+        target.innerHTML = "Let's Zumba!"
+        target.style.color = "hotpink";
+        }
+</script>
+</body>
+</html>
