@@ -24,7 +24,40 @@
 
 
 /*Navroz*/
+body {
+    background-color: #FFD5E2;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
 
+h1 {
+    background-color: #FF5689;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 150px;
+    font-weight: normal;
+    padding: 20px;
+    width: 100%;
+}
+
+p {
+    font-size: 40px;
+}
+
+img {
+    width: 800px;
+    height: 534px;
+}
+
+.play-button {
+    background-color: #FFFFFF;
+}
+
+.rules-button {
+    background-color: #FF2D55;
+    border-radius: 15px;
+}
 
 
 

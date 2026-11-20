@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,6 +57,7 @@
             display: block;
         }
 
+        /* PLAY BUTTON */
         .play-button {
             position: absolute;
             width: 116px;
@@ -66,8 +68,11 @@
             left: 50%;
             transform: translate(-50%, -50%);
             cursor: pointer;
+            display: block;
+            z-index: 2;
         }
 
+        /* RULES BUTTON */
         .rules-button {
             position: relative;
             display: block;
@@ -77,6 +82,7 @@
             border-radius: 15px;
             margin: 7px auto 0;
             text-decoration: none;
+            z-index: 2;
         }
 
         .rules-button span {
@@ -133,23 +139,22 @@
 
     <div class="video-container">
 
-        <img src="https://i.postimg.cc/D026j9Bp/dance.webp" alt="Zumba dancers demonstrating a routine">
+        <img src="https://i.postimg.cc/D026j9Bp/dance.webp"
+             alt="Zumba dancers demonstrating a routine">
 
-        <a href="https://app.edublocks.org/project/hdTLtJI2DrOeX3KyEQdOKVyy7pb2/VsG3HlaoJr9QkxMQ5eYP"
-           class="play-button"
-           aria-label="Watch video demonstration">
-        </a>
+        <a href="Picture Page.html"
+           class="play-button">
 
     </div>
 
-    <a href="https://app.edublocks.org/project/hdTLtJI2DrOeX3KyEQdOKVyy7pb2/bxWdQenQeOjiT9OdcMng"
-   class="rules-button">
-    <span>Rules</span>
-</a>
+    <a href="Rules page.html"
+       class="rules-button">
+        <span>Rules</span>
+    </a>
 
     <p class="bottom-text">
         Click "Rules" to review rules!
     </p>
 
 </body>
-</html>
+</html> 
